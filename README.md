@@ -42,7 +42,7 @@
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/tuusuario/asden-peru.git
+git clone https://github.com/sandrocordova99/ASDEN-Peru.git
 cd asden-peru
 
 # Instala dependencias de PHP
