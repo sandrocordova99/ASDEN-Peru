@@ -1,0 +1,27 @@
+User-agent: *
+
+Disallow: /homeDashboard/
+Disallow: /perfil/editar
+Disallow: /createpost
+Disallow: /listpost
+Disallow: /homeDashboard/register
+Disallow: /homeDashboard/listuser
+Disallow: /homeDashboard/jobs
+Disallow: /homeDashboard/listjobs
+Disallow: /homeDashboard/projects
+Disallow: /homeDashboard/listprojects
+Disallow: /homeDashboard/listpostulate
+Disallow: /homeDashboard/news
+Disallow: /homeDashboard/listnews
+Disallow: /homeDashboard/listreclamos
+
+Disallow: /unsubscribe/
+Disallow: /email/
+Disallow: /subscribe
+Disallow: /comments/
+Disallow: /posts/
+Disallow: /modalBienvenida/
+
+Allow: /
+
+Sitemap: https://asdenperuong.com/sitemap.xml

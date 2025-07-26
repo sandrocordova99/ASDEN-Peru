@@ -1,0 +1,49 @@
+[33ma6fd9df[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelop2[m[33m, [m[1;31morigin/develop2[m[33m)[m se agregan cambios antes del pull
+[33m96ca225[m se agrega el registrar usuarios
+[33m00ae8d6[m se prepara el agregar usuarios
+[33m50e5ef5[m se agregan la funcion para listar usuarios
+[33m46c4d68[m Añadir carpeta resources y archivos correspondientes
+[33m74ae728[m se corrigue el back otra ves
+[33m9406a80[m[33m ([m[1;32maea[m[33m)[m se modifica el back
+[33m2140b9a[m  se modifican migraciones
+[33mb4b7f7c[m se modifican los archivos de migraciones
+[33m101c0c6[m Subiendo los cambios de funcionalidad de login
+[33md425c34[m Modificando el  README.md
+[33m7e84578[m Subiendo los cambios modificados
+[33m8d08c14[m Subiendo los cambios modificados
+[33mbb59365[m Subiendo los cambios
+[33mfba3015[m haciendo el merge
+[33m02a014d[m modifico entidad user
+[33m3e2c692[m Subiendo cambios realizados
+[33m80178f5[m se agregan servicio de listar solicitudes
+[33mc39a04a[m se modifican migraciones
+[33me6122a6[m se agregan servicios para listar ofertas
+[33md966199[m se agrega servicio para crear ofertas de trabajo
+[33m95a8343[m se agregan servicios para listar post con comentarios
+[33mf6c04a3[m se agregan servicios para comentar
+[33maddac04[m se agregan ultimos cambios
+[33m6e1b8c8[m se agregan servicios para contacto
+[33m2970723[m[33m ([m[1;31morigin/develop[m[33m)[m Modificando los cambios de carpetas
+[33m901d642[m Merge pull request #7 from NEONHOUSELED-SAC/develop
+[33m8cde761[m Subiendo los cambios modificados
+[33m8cee69b[m se agrega el servicio para eliminar posts
+[33m32c567c[m se agrega el servicio para crear post y cerrar sesion
+[33m6deb3cd[m Merge pull request #6 from NEONHOUSELED-SAC/develop
+[33m8eebaf3[m Merge pull request #5 from NEONHOUSELED-SAC/header
+[33m854969f[m Subiendo lo cambios mejorados
+[33mbe19b63[m Merge pull request #4 from NEONHOUSELED-SAC/header
+[33mc0716fb[m Subiendo los compnentes restantes
+[33ma9a1236[m se agregan cambios relacionados con la seguridad
+[33m3c1fb59[m se agregan el servicio para eliminar usuario
+[33m963c20f[m se agrega servicio para actualizar Usuario
+[33m311d5f9[m se agregan el servico de buscar usuario
+[33mf0b0fbe[m se agrega el endpoint para agregar usuario
+[33m8650853[m Limpieza del proyecto roto
+[33mb8c58ce[m Merge pull request #3 from NEONHOUSELED-SAC/header
+[33m80e6c22[m Agregando componentes y diseños
+[33m15e65da[m se corriguen errores
+[33m80ef93d[m Merge pull request #2 from NEONHOUSELED-SAC/header
+[33m0a43221[m Navegacion de header
+[33mef6220d[m Merge pull request #1 from NEONHOUSELED-SAC/modal
+[33mb433170[m se agregan entidades
+[33ma8c0e80[m first commit
