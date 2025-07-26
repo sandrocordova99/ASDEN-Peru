@@ -1,66 +1,62 @@
-<p align="center">
-  <a href="https://laravel.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
-  </a>
-</p>
+# 🌱 ASDEN Perú
 
-<p align="center">
-  <a href="https://github.com/laravel/framework/actions">
-    <img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status">
-  </a>
-  <a href="https://packagist.org/packages/laravel/framework">
-    <img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads">
-  </a>
-  <a href="https://packagist.org/packages/laravel/framework">
-    <img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version">
-  </a>
-  <a href="https://packagist.org/packages/laravel/framework">
-    <img src="https://img.shields.io/packagist/l/laravel/framework" alt="License">
-  </a>
-</p>
+**ASDEN Perú** es una plataforma web integral desarrollada para apoyar a una ONG en la gestión de noticias, ofertas de voluntariado, donaciones y publicaciones comunitarias. Este proyecto combina un backend robusto con un frontend dinámico, ofreciendo una experiencia segura, escalable y centrada en la participación social.
 
-# ASDEN Peru
+---
 
-ASDEN Peru es una plataforma web integral que gestiona tanto el **backend** como el **frontend** de la aplicación. Este proyecto está desarrollado con **Laravel 11.x** y aprovecha las ventajas de un stack moderno para crear una experiencia de usuario dinámica, segura y escalable.
+## 🚀 Características
 
-## Características
+### 🧠 Gestión de contenido
+- Publicación de noticias, ofertas de trabajo para voluntariado y posts.
+- Envío de solicitudes sin necesidad de estar registrado.
+- Sistema de comentarios para fomentar la interacción.
 
-- **Backend robusto:**  
-  - Desarrollado en Laravel 11.x con PHP, ofreciendo una arquitectura limpia y modular.
-  - Gestión de autenticación mediante **JWT** para asegurar las interacciones y la protección de datos.
-  - API RESTful para la comunicación con el frontend y la integración con otros servicios.
+### 👥 Roles de usuario
+- **Administrador**: puede crear, editar y eliminar noticias, ofertas, posts y gestionar usuarios.
+- **Usuario regular**: puede crear posts y comentar en publicaciones.
+- **Visitante**: puede enviar solicitudes sin necesidad de autenticarse.
 
-- **Frontend dinámico y responsivo:**  
-  - Uso de **Blade** como motor de plantillas para generar vistas.
-  - Estilos y componentes con **Tailwind CSS** que garantizan un diseño moderno y adaptativo.
-  - Comportamiento interactivo con **Alpine.js** para potenciar la experiencia de usuario sin depender de frameworks complejos.
+---
 
-- **Optimización y escalabilidad:**  
-  - Compilación y minificación de assets para un rendimiento óptimo en producción.
-  - Configuración de caché y optimización de rutas, vistas y configuraciones mediante comandos de Artisan.
+## 🛠️ Tecnologías Utilizadas
 
-## Tecnologías Utilizadas
+### Backend robusto
+- Desarrollado en **Laravel 11.x** con **PHP**, ofreciendo una arquitectura limpia y modular.
+- Gestión de autenticación mediante **JWT** para asegurar las interacciones y la protección de datos.
+- API RESTful para la comunicación con el frontend y la integración con otros servicios.
 
-- **Backend:**  
-  - [Laravel 11.x](https://laravel.com)
-  - PHP
-  - JWT para autenticación
+### Frontend dinámico y responsivo
+- Uso de **Blade** como motor de plantillas para generar vistas.
+- Estilos y componentes con **Tailwind CSS** que garantizan un diseño moderno y adaptativo.
+- Comportamiento interactivo con **Alpine.js** para potenciar la experiencia de usuario sin depender de frameworks complejos.
 
-- **Frontend:**  
-  - Blade
-  - [Tailwind CSS](https://tailwindcss.com)
-  - [Alpine.js](https://alpinejs.dev)
+### Herramientas y utilidades
+- **Git** para control de versiones.
+- **Composer** para la gestión de dependencias en PHP.
+- **NPM** para la gestión de assets y librerías de JavaScript/CSS.
+- **MySQL** como sistema de gestión de base de datos.
 
-- **Herramientas y utilidades:**  
-  - Git para control de versiones.
-  - Composer para la gestión de dependencias en PHP.
-  - NPM para la gestión de assets y librerías de JavaScript/CSS.
+---
 
-## Instalación y Configuración
+## ⚙️ Instalación
 
-Sigue estos pasos para poner en marcha el proyecto en tu entorno local:
+```bash
+# Clona el repositorio
+git clone https://github.com/tuusuario/asden-peru.git
+cd asden-peru
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone https://github.com/tu_usuario/asdenperu.git
-   cd asdenperu
+# Instala dependencias de PHP
+composer install
+
+# Instala dependencias de frontend
+npm install && npm run dev
+
+# Configura el archivo .env
+cp .env.example .env
+php artisan key:generate
+
+# Configura la base de datos en .env y ejecuta migraciones
+php artisan migrate
+
+# Opcional: seeders para datos de prueba
+php artisan db:seed
